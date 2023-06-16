@@ -24,8 +24,6 @@ jobs:
         stack: ['heroku-20', 'heroku-22']
 
     env:
-      S3_BUCKET: ${{ env.S3_BUCKET }}
-      S3_REGION: ${{ env.S3_REGION }}
       BUILDPACK: ./vendor/heroku/heroku-buildpack-php
 
     steps:
